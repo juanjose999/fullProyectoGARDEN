@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0f1117;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tickets-container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    color: white;
+}
+
+.tickets-title{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.tickets-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.ticket-card{
+    background: #1a1d26;
+    border: 1px solid #2b2f3a;
+    border-radius: 18px;
+    padding: 20px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.ticket-card:hover{
+    transform: translateY(-5px);
+    border-color: #4f8cff;
+    box-shadow: 0 10px 25px rgba(79,140,255,0.25);
+}
+
+.ticket-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ticket-code{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #4f8cff;
+}
+
+.ticket-status{
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estados */
+
+.ticket-status.activo{
+    background: rgba(46, 204, 113, 0.2);
+    color: #2ecc71;
+}
+
+.ticket-status.pendiente{
+    background: rgba(241, 196, 15, 0.2);
+    color: #f1c40f;
+}
+
+.ticket-status.cancelado{
+    background: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+}
+
+.ticket-body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ticket-body p{
+    color: #cfd3dc;
+    font-size: 0.95rem;
+}
+
+.ticket-body strong{
+    color: white;
+}

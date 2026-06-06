@@ -1,0 +1,104 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    margin-bottom: 14px;
+    text-align: center;
+    display: contents;
+}
+
+.login-title {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #888383;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-description {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.containerStatusOperation{
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.575);
+    padding: 9em;
+}
+
+
+
+.form-group input:focus {
+    border-color: #4f46e5;
+}
+
+.login-button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #322d8d;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.signup-button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4e46e51c;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: solid 2px rgba(255, 255, 255, 0.158);
+}
+
+.login-button:hover {
+    background-color: #4338ca;
+}
+
+.notView {
+    display: none;
+}
