@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Dashboard.css";
-import { findAllEvents, findEventById } from '../../api/Event'
+import { findAllEvents, findEventById } from '../../services/Event'
 
 
 export const Dashboard = ({isLoged, onChangePage, onSetEventData }) => {
@@ -25,6 +25,7 @@ export const Dashboard = ({isLoged, onChangePage, onSetEventData }) => {
         onChangePage('eventForm')
     }
 
+    console.log('hola desde harboard _', isLoged)
     useEffect(() => {
         findEvents()
     }, [])

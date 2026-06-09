@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Login.css'
-import { AuthLogin } from '../../api/Auth'
+import { AuthLogin } from '../../../services/Auth'
 
 export const Login = ({ onSignupSuccess }) =>{
 

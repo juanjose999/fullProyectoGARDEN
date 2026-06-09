@@ -2,7 +2,7 @@ INSERT INTO usuario
 (nombre, apellido, email, password, telefono, documento, activo, role)
 VALUES
     ('juan jose', 'sierra ortega', 'juan@gmail.com',
-     '$2a$10$JWhqh1.PEOuBd0PUjEPTB..LgNfCGQcFZaeL17tNhpHftAqq3VzGS',
+     '$2a$10$tZ5Zj5CmiCwCMQGOYGqKJOaNSRdVIDniSsk6wtS4qcSys0WOyFJF2',
      '1234567880','1112223344',true,'USER');
 
 INSERT INTO evento (

@@ -3,7 +3,7 @@ import "./EventDetail.css";
 
 export const EventDetail = ({ event, onChangePage, isLogged }) => {
 
-
+    
 
     return (
 
@@ -54,7 +54,7 @@ export const EventDetail = ({ event, onChangePage, isLogged }) => {
                         </div>
 
                         <div>
-                            <span>Precio Base</span>
+                            <span>Precio Unitario</span>
                             <p>${event.data.precioBase}</p>
                         </div>
 

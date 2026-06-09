@@ -1,0 +1,27 @@
+.account-card {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background: #1e293b;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,.3);
+}
+
+.account-title {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.account-info p {
+    margin: 0;
+    padding: .8rem;
+    background: #334155;
+    border-radius: 8px;
+}

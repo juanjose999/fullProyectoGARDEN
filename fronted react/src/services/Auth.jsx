@@ -30,3 +30,5 @@ export const AuthLogin = async (bodyStr)  => {
         throw new Error('Error en la peticion de login', error)
     }
 }
+
+
